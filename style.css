@@ -85,6 +85,158 @@ hr {
 /* ===========================
 CSS COMPONENT
 ============================*/
+
+/* ===== COMMENT ===== */
+.wrap_list_comment_mobile {
+    width: 100%;
+    position: relative;
+}
+
+.wrap_list_comment_mobile .list_component_mobile {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--colorGrey3);
+}
+
+.wrap_list_comment_mobile .list_component_mobile .no_cmt {
+    font-size: 4vw;
+    color: var(--colorgrey2);
+    font-style: italic;
+    margin-bottom: 4.33vw;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile {
+    width: 100%;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile:not(:first-child) {
+    margin-top: 5.33vw;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile:last-child {
+    margin-bottom: 4.33vw;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile .comment_user_mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile .info_comment .name {
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 4.8vw;
+    line-height: 6.67vw;
+}   
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile .info_comment .time {
+    font-size: 3.46vw;
+    color: var(--colorgrey2);
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile .content_comment {
+    color: var(--colorWhite2);
+    font-size: 4.23vw;
+    line-height: 5.67vw;
+    margin-top: 2.67vw;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .comment_item_mobile .btn_reply {
+    color: var(--colorWhite);
+    background-color:var(--colorBlue);
+    font-size: 3.8vw;
+    width: 16vw;
+    padding: 0.8vw 1.33vw 1.07vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.33vw;
+    -webkit-border-radius: 1.33vw;
+    -moz-border-radius: 1.33vw;
+    -ms-border-radius: 1.33vw;
+    -o-border-radius: 1.33vw;
+    margin-top: 2.67vw;
+}
+
+.wrap_list_comment_mobile .list_component_mobile .wrap_comment_item_mobile .sub_comment_mobile {
+    margin-left: 8vw;
+    margin-top: 4vw;
+}
+/* ===== END COMMENT ===== */
+
+/* ===== FORM SEND COMMENT ===== */
+.box_send_cmt .wrap_form_send_cmt {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.box_send_cmt .wrap_form_send_cmt .row_1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:  2.67vw;
+}
+
+.box_send_cmt .wrap_form_send_cmt .row_1 .txt_input_cmt {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0  2.67vw;
+    height: 9.33vw;
+    font-size: 4vw;
+    color: var(--colorBlack);
+    border-radius: 1.33vw;
+    font-weight: 500;
+}
+
+.box_send_cmt .wrap_form_send_cmt .row_1 .txt_input_cmt::placeholder {
+    font-size: 4vw;
+    font-weight: bold;
+    color: var(--colorBlack);
+}
+
+.box_send_cmt .wrap_form_send_cmt .row_2 {
+    margin-top: 2.67vw;
+}
+
+.box_send_cmt .wrap_form_send_cmt .row_2 .txt_mess_cmt {
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 1.33vw;
+    padding: 0  2.67vw;
+    color: var(--colorBlack);
+    font-weight: 500;
+}
+
+.box_send_cmt .wrap_form_send_cmt .btn_send_cmt_mobile {
+    margin-top: 2.47vw;
+    width: 21.33vw;
+    height: 9.33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorWhite);
+    background-color: var(--colorBlue);
+    font-size: 4vw;
+    border: none;
+    outline: none;
+    border-radius: 1.33vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* ===== END FORM SEND COMMENT ===== */
+
 /* ===== HEADER ===== */
 .app .header_app {
     display: flex;
@@ -1093,5 +1245,9 @@ CSS PAGE
 .app.page_details main .wrap_page_details article a {
     text-decoration: underline;
     color: var(--colorWhite)
+}
+
+.app.page_details main .wrap_page_details .box_send_cmt {
+    margin-top: 3.33vw;
 }
 /* ===== END DETAILS ===== */

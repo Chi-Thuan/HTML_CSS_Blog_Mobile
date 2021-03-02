@@ -95,65 +95,80 @@
                         Bình luận
                     </h3>
                     <div class="grid-1-1 container">
-                        <div class="wrap_card_full_row ">
-                            <div class="card_full_row">
-                                <div class="wrap_header">
-                                    <div class="body_card">
-                                        <div class="wrap_source_post">
-                                            <img src="https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL" class="icon" alt="icon">
-                                            <a href="#" class="title_source">
-                                                BBC Tiếng việt
+                        <!-- COMMENT -->
+                        <div class="wrap_list_comment_mobile">
+                            <div class="list_component_mobile">
+                                 <!-- COMMENT ITEM -->
+                                 <div class="wrap_comment_item_mobile">
+                                    <div class="comment_item_mobile">
+                                        <div class="comment_user_mobile">
+                                            <div class="info_comment">
+                                                <p class="name">
+                                                    Jonnie
+                                                </p>
+                                                <p class="time">
+                                                    Jan 04 2021
+                                                </p>
+                                            </div>
+                                            <p class="content_comment">
+                                                Ở đây có 2 sàn mình đang chơi, thấy cũng được. Mỗi ngày kiếm vài chục $
+                                            </p>
+                                            <a href="#send_cmt" data-idcomment="" class="btn_reply">
+                                                trả lời
                                             </a>
                                         </div>
-                                        <a href="" class="title_post">
-                                            Công bố danh sách 200 ủy viên Trung ương Đảng khóa XIII
-                                        </a>
+                                        <!-- SUB COMMENT -->
+                                        <div class="sub_comment_mobile">
+                                            <div class="info_comment">
+                                                <p class="name">
+                                                    Jonnie
+                                                </p>
+                                                <p class="time">
+                                                    Jan 04 2021
+                                                </p>
+                                            </div>
+                                            <p class="content_comment">
+                                                Ở đây có 2 sàn mình đang chơi, thấy cũng được. Mỗi ngày kiếm vài chục $
+                                            </p>
+                                        </div>
+                                        <!-- END SUB COMMENT -->
                                     </div>
-                                    <a href="#" class="header_post">
-                                        <img src="https://lh4.googleusercontent.com/proxy/vR5FpsW4mBQiC18zh7gpZmbs4jHDgIIXXD-Hdp3B87U8QeJEGey0fMvgGXTt4p2ZQr8wubX7TgunXlgrhRj8HCrK8U_xNkKH1WhDi-3nGgj9EIjxHLhyerM6HYSBCKj89NJAtW8m39_f2Op0iDKz-Ui6Rkn_I1HvJXSZVw=-p-df-h175-w350-rw" alt="thumbnail">
-                                    </a>
                                 </div>
-                                <div class="footer_card">
-                                    <div class="wrap_time">
-                                        <span class="time">5 giờ trước</span> <span class="dot">&#8226;</span> <span class="category_small">Tin chính</span>
-                                    </div>
-                                    <label class="wrap_option">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </label>
-                                </div>
+                                <!-- END COMMENT ITEM -->
+
+                                <!-- CHƯA CÓ BÌNH LUẬN MỞ CMT -->
+                                <!-- <p class="no_cmt">
+                                    Chưa có bình luận   
+                                </p> -->
                             </div>
                         </div>
-                        <div class="wrap_card_full_row ">
-                            <div class="card_full_row">
-                                <div class="wrap_header">
-                                    <div class="body_card">
-                                        <div class="wrap_source_post">
-                                            <img src="https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL" class="icon" alt="icon">
-                                            <a href="#" class="title_source">
-                                                BBC Tiếng việt
-                                            </a>
-                                        </div>
-                                        <a href="" class="title_post">
-                                            Công bố danh sách 200 ủy viên Trung ương Đảng khóa XIII
-                                        </a>
-                                    </div>
-                                    <a href="#" class="header_post">
-                                        <img src="https://lh4.googleusercontent.com/proxy/vR5FpsW4mBQiC18zh7gpZmbs4jHDgIIXXD-Hdp3B87U8QeJEGey0fMvgGXTt4p2ZQr8wubX7TgunXlgrhRj8HCrK8U_xNkKH1WhDi-3nGgj9EIjxHLhyerM6HYSBCKj89NJAtW8m39_f2Op0iDKz-Ui6Rkn_I1HvJXSZVw=-p-df-h175-w350-rw" alt="thumbnail">
-                                    </a>
-                                </div>
-                                <div class="footer_card">
-                                    <div class="wrap_time">
-                                        <span class="time">5 giờ trước</span> <span class="dot">&#8226;</span> <span class="category_small">Tin chính</span>
-                                    </div>
-                                    <label class="wrap_option">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </label>
-                                </div>
-                            </div>
+                        <!-- END COMMENT -->
                     </div>
                 </div>
-                <hr class="line_box_container">
 
+                <div class="box_title box_send_cmt" id="send_cmt">
+                    <h3 class="title_box container">
+                        Để lại bình luận
+                    </h3>
+                    <div class="grid-1-1 container">
+                        <form action="">
+                            <div class="wrap_form_send_cmt">
+                                <div class="row_1">
+                                    <input type="text" required placeholder="Tên" name="" required class="txt_input_cmt">
+                                    <input type="email" required placeholder="Email" name="" required class="txt_input_cmt">
+                                </div>
+                               <div  class="row_2">
+                                    <textarea placeholder="Bình luận" class="txt_mess_cmt" rows="4">
+
+                                    </textarea>
+                               </div>
+                                <input type="submit" class="btn_send_cmt_mobile" value="Gửi">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <hr class="line_box_container">
                 <div class="box_title">
                     <h3 class="title_box container">
                         Tin khác
@@ -441,6 +456,9 @@
                         </div>
                     </div>
                 </div>
+            
+            
+            
             </div>
         </main>
         <footer>
