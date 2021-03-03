@@ -1021,8 +1021,11 @@ CSS PAGE
     -o-transform: translateY(-50%);
 }
 
+.app.page_mainNews main .wrap_categoryMainNews .wrap_item_category_mainNews .content_category_mainNews {
+    display: flex;
+}
+
 .app.page_mainNews main .wrap_categoryMainNews .wrap_item_category_mainNews .category_mainNews_item {
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1032,6 +1035,8 @@ CSS PAGE
     font-size: 4vw;
     color: var(--colorgrey2);
     font-weight: 700;
+    width: 32vw;
+    padding: 0 2.67vw;
 }
 
 .app.page_mainNews main .wrap_categoryMainNews .wrap_item_category_mainNews .category_mainNews_item::after {
